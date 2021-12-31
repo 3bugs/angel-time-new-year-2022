@@ -119,7 +119,8 @@ const draw = () => {
 const drawText = () => {
   ctx.fillStyle = "lime";
   ctx.textAlign = "center";
-  ctx.font = "50px Arial";
+  ctx.font = "50px Lobster";
+  ctx.fontWeight = "bold";
 
   if (canvas.width > 780) {
     ctx.drawImage(logoImage, (canvas.width - logoImage.width) / 2, (canvas.height - logoImage.height) / 2 - 80);
