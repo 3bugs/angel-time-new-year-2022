@@ -9,7 +9,7 @@ const logoImage = new Image();
 logoImage.onload = function() {
   //ctx.drawImage(logoImage, 0, 0);
 };
-logoImage.src = '../img/promlert_circle.png';
+logoImage.src = '../img/promlert_circle_150.png';
 
 class Firework {
   constructor(x, y, radius, velocityX, velocityY, color) {
