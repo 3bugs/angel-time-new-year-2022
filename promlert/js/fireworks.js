@@ -53,7 +53,7 @@ let colors = ["Blue", "Orange", "Red", "Purple", "Green"]
 let initializeCount = 0
 let maximumInitialize = 1
 
-let initDelay = 500// ms
+let initDelay = 2000// ms
 let fireworkRadius = 5
 let particleCount = 120
 let speedMultiplier = 5
