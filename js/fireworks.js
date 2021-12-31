@@ -9,7 +9,7 @@ const logoImage = new Image();
 logoImage.onload = function() {
   //ctx.drawImage(logoImage, 0, 0);
 };
-logoImage.src = '../img/angel_time_all.png';
+logoImage.src = '../img/promlert_circle.png';
 
 class Firework {
   constructor(x, y, radius, velocityX, velocityY, color) {
@@ -124,13 +124,13 @@ const drawText = () => {
 
   if (canvas.width > 780) {
     ctx.drawImage(logoImage, (canvas.width - logoImage.width) / 2, (canvas.height - logoImage.height) / 2 - 80);
-    ctx.fillText("HAPPY NEW YEAR 2022", canvas.width / 2, canvas.height / 2);
+    ctx.fillText("HAPPY NEW YEAR 2022", canvas.width / 2, canvas.height / 2 + 90);
   } else {
     ctx.drawImage(logoImage, (canvas.width - logoImage.width) / 2, (canvas.height - logoImage.height) / 2 - 150);
-    ctx.fillText("HAPPY", canvas.width / 2, canvas.height / 2 - 60);
-    ctx.fillText("NEW", canvas.width / 2, canvas.height / 2);
-    ctx.fillText("YEAR", canvas.width / 2, canvas.height / 2 + 60);
-    ctx.fillText("2022", canvas.width / 2, canvas.height / 2 + 120);
+    ctx.fillText("HAPPY", canvas.width / 2, canvas.height / 2 + 20);
+    ctx.fillText("NEW", canvas.width / 2, canvas.height / 2 + 80);
+    ctx.fillText("YEAR", canvas.width / 2, canvas.height / 2 + 140);
+    ctx.fillText("2022", canvas.width / 2, canvas.height / 2 + 200);
   }
 };
 
