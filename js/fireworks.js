@@ -124,9 +124,9 @@ const drawText = () => {
 
   if (canvas.width > 780) {
     ctx.drawImage(logoImage, (canvas.width - logoImage.width) / 2, (canvas.height - logoImage.height) / 2 - 80);
-    ctx.fillText("HAPPY NEW YEAR 2022", canvas.width / 2, canvas.height / 2);
+    ctx.fillText("HAPPY NEW YEAR 2022", canvas.width / 2, canvas.height / 2 + 20);
   } else {
-    ctx.drawImage(logoImage, (canvas.width - logoImage.width) / 2, (canvas.height - logoImage.height) / 2 - 150);
+    ctx.drawImage(logoImage, (canvas.width - logoImage.width) / 2, (canvas.height - logoImage.height) / 2 - 160);
     ctx.fillText("HAPPY", canvas.width / 2, canvas.height / 2 - 60);
     ctx.fillText("NEW", canvas.width / 2, canvas.height / 2);
     ctx.fillText("YEAR", canvas.width / 2, canvas.height / 2 + 60);
